@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BLING</title>
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- header starts -->
+    <section id="header">
+      <a href="#"
+        ><img src="images/logoweb.png" class="logo" alt="" height="70px"
+      /></a>
+
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="collection.html">COLLECTIONS</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li id="lg-bag">
+            <a href="cart.html" class="active"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </li>
+          <a href="#" id="close"><i class="fa fa-times"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+    <!-- header ends -->
+
+    <!-- cart table starts -->
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="#"><i class="fa fa-times"></i></a>
+            </td>
+            <td><img src="images/pendentjpg.jpg" alt="" /></td>
+            <td>Pendent</td>
+            <td>$769.90</td>
+            <td><input type="number" value="1" /></td>
+            <td>$769.90</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="fa fa-times"></i></a>
+            </td>
+            <td><img src="images/pendentjpg.jpg" alt="" /></td>
+            <td>Pendent</td>
+            <td>$769.90</td>
+            <td><input type="number" value="1" /></td>
+            <td>$769.90</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="fa fa-times"></i></a>
+            </td>
+            <td><img src="images/pendentjpg.jpg" alt="" /></td>
+            <td>Pendent</td>
+            <td>$769.90</td>
+            <td><input type="number" value="1" /></td>
+            <td>$769.90</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <!-- cart table ends -->
+
+    <section id="add" class="section-p1">
+      <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+          <input type="text" placeholder="Enter Your Coupon" />
+          <button class="normal">Apply</button>
+        </div>
+      </div>
+      <div id="total">
+        <h3>Cart Totals</h3>
+        <table>
+          <tr>
+            <td>Cart Subtotals</td>
+            <td>$335</td>
+          </tr>
+          <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+          </tr>
+          <tr>
+            <td><strong>Totals</strong></td>
+            <td><strong>$335</strong></td>
+          </tr>
+        </table>
+        <button class="normal">Proceed to checkout</button>
+      </div>
+    </section>
+
+    <!-- newsletter -->
+    <section id="newsletter" class="section-p1 section-m1">
+      <div class="newstext">
+        <h4>NEWSLETTER</h4>
+        <p>We promise only to send the good things</p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your email address" />
+        <button class="normal">SIGN UP</button>
+      </div>
+    </section>
+    <!-- newsletter ends -->
+
+    <!-- footer starts -->
+    <footer class="section-p1">
+      <div class="col">
+        <h4>CONTACT</h4>
+        <p><strong>Address:</strong> Kathmandu,Nepal street 32</p>
+        <p><strong>Phone:</strong> 01-234567 01-478383</p>
+        <p><strong>Hours:</strong> 10am-6pm</p>
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & conditions</a>
+        <a href="#">Contact us</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col payment">
+        <p><strong>Secured Payment Gateways</strong></p>
+        <div class="row">
+          <img src="images/esewa.png" alt="" height="60px" />
+          <img src="images/khalti.png" alt="" height="60px" />
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>© Krisha Regmi, 2023 project- HTML CSS Jewellery Ecommerce</p>
+      </div>
+    </footer>
+    <!-- footer ends -->
+    <script src="script.js"></script>
+  </body>
+</html>
